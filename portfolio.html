@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Aman's Portfolio Page</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Aman's Portfolio Page</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about"> About </a></li>
+            <li><a href="#projects"> Projects </a> </li>
+            <li><a href="#contact"> Contact </a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about">
+
+            <h2> About</h2>
+
+            <figure>
+                <img src="https://via.placeholder.com/150" alt="Personal Picture">
+                <figcaption>Profile picture</figcaption>
+            </figure>
+
+            <p> Working with startups and MNCs alike to bring AI solutions to life. I deliver
+                complete solutions web/app based specializing in AI Agent creation or Machine Learning or Deep Learning
+                development. My contributions also extend to open source, my latest one being to the A2A protocol
+                inspector. In research I am interested in EEGs and Generative AI.
+            </p>
+
+        </section>
+        <aside>
+            <a href="https://bit.ly/Aman-Alis-Resume" target="_blank">Download Resume</a>
+        </aside>
+
+        <hr>
+
+        <section id="projects">
+            <h2> Projects</h2>
+
+            <article>
+                <h3>Enfojobs</h3>
+                <p>Seamless global job search portal</p>
+
+                <!-- maybe add a picture too -->
+                <!-- link -->
+                <p>Enfojobs is a global job portal, we fetch jobs from all over the world.</p>
+                <a href="https://enfojobs.com/" target="_blank"> Learn more</a>
+                <!-- attach link to this https://enfojobs.com/ -->
+                <!-- check if the formatting is ok -->
+
+                <figure>
+                    <img src="./assets/enfojobs-hero.svg" alt="Screenshot of the Website">
+                    <figcaption>Enfojobs Landing Page</figcaption>
+                </figure>
+                <h4> Features: </h4>
+                <ol>
+                    <li> Has Stripe based payments subscription model</li>
+                    <li> Supports natural language queries to fetch jobs, you can search for designer remote jobs in
+                        Dallas or in anywhere in India </li>
+                    <li> Also has a downloadable application which supports in-app purchases</li>
+                </ol>
+            </article>
+
+            <article>
+                <h3>LivStory</h3>
+                <p> Real-time background sound generation with storytelling</p>
+
+                <!-- maybe add a picture too -->
+                <!-- link -->
+                <a href="https://github.com/STCVIT/LivStory" target="_blank"> Learn More</a>
+                <!-- https://github.com/STCVIT/LivStory -->
+                <!-- check if the formatting is ok -->
+
+                <figure>
+                    <img src="./assets/livstory-banner.svg" alt="Screenshot of the Website">
+                    <figcaption>Various pages in-app and the logo</figcaption>
+                </figure>
+
+
+                <h4> Features: </h4>
+                <ol>
+                    <li>Uses lemmatization and Natural Language processing to process and play various sound
+                        intelligently based on the text spoken in real-time</li>
+                    <li>Includes a variety of sounds from different aspects of life: nature, animals as well as
+                        cartoon sounds</li>
+                    <li>Runs on an Azure hosted ML backend with Firebase powered audio delivery, enabling scalable,
+                        low-latency sound generation for mobile storytelling</li>
+                </ol>
+            </article>
+
+        </section>
+
+        <hr>
+
+        <section id="contact">
+
+            <h2> Contact</h2>
+            <!-- to fix the label and input structure -->
+            <!-- fix the br it causes misalignment in the labels and input fields -->
+            <form>
+                <label for="sender-name">Name:</label>
+                <input type="text" id="sender-name" name="sender-name" placeholder="Your Name" required>
+                <br>
+
+                <label for="sender-email">Email</label>
+                <input type="email" id="sender-email" name="sender-email" placeholder="Your Email" required>
+                <br>
+
+                <label for="sender-message">Message</label>
+                <textarea id="sender-message" id="sender-message" name="sender-message" placeholder="Your Message"
+                    required></textarea>
+                <br>
+
+                <button>Submit</button>
+
+            </form>
+        </section>
+    </main>
+
+    <!-- To check if this is ok like with positioning -->
+    <hr>
+    <footer>
+
+        <p>Aman Ali Siddiqui ©2026. All Rights Reserved. Designed and Developed by Aman.</p>
+
+        Social Media:
+        <ul>
+            <li> <a href="https://www.linkedin.com/in/-aman/" target="_blank"> Linkedin </a> </li>
+            <li> <a href="https://github.com/a-ma-n" target="_blank"> Github </a> </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
