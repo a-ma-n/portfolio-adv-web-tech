@@ -24,8 +24,8 @@
 
             <h2> About</h2>
 
-            <figure>
-                <img src="https://via.placeholder.com/150" alt="Personal Picture">
+            <figure style="text-align:center">
+                <img src="./assets/aman_picture.jpg" alt="Personal Picture" width="500px" height="500px">
                 <figcaption>Profile picture</figcaption>
             </figure>
 
@@ -60,18 +60,18 @@
                 <p>Enfojobs is a global job portal, we fetch jobs from all over the world.</p>
                 <a href="https://enfojobs.com/" target="_blank"> Learn more</a>
 
-                <figure>
+                <figure style="text-align:center">
                     <img src="./assets/enfojobs-landing.png" alt="Screenshot of the Website" width="1000px"
                         height="500px">
                     <figcaption>Enfojobs Landing Page</figcaption>
                 </figure>
                 <h4> Features: </h4>
-                <ol>
+                <ul>
                     <li> Has Stripe based payments subscription model</li>
                     <li> Supports natural language queries to fetch jobs, you can search for designer remote jobs in
                         Dallas or in anywhere in India </li>
                     <li> Also has a downloadable application which supports in-app purchases</li>
-                </ol>
+                </ul>
             </article>
 
             <article>
@@ -82,22 +82,22 @@
 
                 <a href="https://github.com/STCVIT/LivStory" target="_blank"> Learn More</a>
 
-                <figure>
+                <figure style="text-align:center">
                     <img src="./assets/livstory-banner.svg" alt="Screenshot of the Website" width="1000px"
                         height="500px">
-                    <figcaption>Various pages in-app and the logo</figcaption>
+                    <figcaption>Logo and the in-app pages</figcaption>
                 </figure>
 
 
                 <h4> Features: </h4>
-                <ol>
+                <ul>
                     <li>Uses lemmatization and Natural Language processing to process and play various sound
                         intelligently based on the text spoken in real-time</li>
                     <li>Includes a variety of sounds from different aspects of life: nature, animals as well as
                         cartoon sounds</li>
                     <li>Runs on an Azure hosted ML backend with Firebase powered audio delivery, enabling scalable,
                         low-latency sound generation for mobile storytelling</li>
-                </ol>
+                </ul>
             </article>
 
         </section>
@@ -111,17 +111,19 @@
                 <label for="sender-name">Name:</label>
                 <input type="text" id="sender-name" name="sender-name" placeholder="Your Name" required>
                 <br>
+                <br>
 
                 <label for="sender-email">Email</label>
                 <input type="email" id="sender-email" name="sender-email" placeholder="Your Email" required>
                 <br>
-
-                <label for="sender-message">Message</label>
-                <textarea id="sender-message" id="sender-message" name="sender-message" placeholder="Your Message"
-                    required></textarea>
                 <br>
 
-                <button>Submit</button>
+                <label for="sender-message">Message</label>
+                <textarea id="sender-message" name="sender-message" placeholder="Your Message" required></textarea>
+                <br>
+                <br>
+
+                <button type="submit">Submit</button>
 
             </form>
         </section>
